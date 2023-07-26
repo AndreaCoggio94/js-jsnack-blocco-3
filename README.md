@@ -35,7 +35,7 @@ Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Contin
 
 - crea array vuoto
 - crea variabile "totale" che tiene conto della somma
-- **FINCHE'** la variabile "totale" è minore o guale di 50
+- **FINCHE'** la variabile "totale" è minore o uguale di 50
   - chiedi all'utente un numero
   - **SE** il numero inserito dall'utente è inferiore o uguale di 50
   - prendo la variabile "totale" e la sommo con il numero dell'utente

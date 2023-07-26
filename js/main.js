@@ -27,7 +27,15 @@
 
 let result = [];
 
-while () {
-    let userNumber = parseInt("Inserisci un numero")
+let resultSum = 0;
 
+while (resultSum < 50) {
+  let userNumber = parseInt(prompt("Inserisci un numero"));
+  let checkUserNumber = resultSum + userNumber;
+  console.log(resultSum);
+  if (checkUserNumber <= 50) {
+    resultSum += userNumber;
+    result.push(userNumber);
+  }
+  console.log(result);
 }
