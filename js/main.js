@@ -42,19 +42,32 @@
 
 // ! traccia 4
 
-let result = [];
+// let result = [];
 
-let resultSum = 0;
+// let resultSum = 0;
 
-while (resultSum < 50) {
-  let userNumber = parseInt(prompt("Inserisci un numero"));
-  let checkUserNumber = resultSum + userNumber;
-  console.log(resultSum);
-  if (checkUserNumber <= 50) {
-    resultSum += userNumber;
-    result.push(userNumber);
+// while (resultSum < 50) {
+//   let userNumber = parseInt(prompt("Inserisci un numero"));
+//   let checkUserNumber = resultSum + userNumber;
+//   console.log(resultSum);
+//   if (checkUserNumber <= 50) {
+//     resultSum += userNumber;
+//     result.push(userNumber);
+//   }
+//   console.log(result);
+// }
+
+// console.log("Media è " + resultSum / result.length);
+
+// ! traccia 5
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenNumbers = [];
+for (let i = 0; i < numbers.length - 1; i++) {
+  if (numbers[i] % 2 == 0) {
+    evenNumbers.push(i);
   }
-  console.log(result);
 }
+console.log(evenNumbers);
 
-console.log("Media è " + resultSum / result.length);
+// dovrebbe restituire [1,3,5]

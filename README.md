@@ -56,3 +56,22 @@ Calcola la media dei numeri inseriti.
   - prendo la variabile "totale" e la sommo con il numero dell'utente
   - aggiungo numero ad array vuoto
 - per fare la media prendo variabile "totale" e la divido per la lunghezza dell'array
+
+## traccia 5
+
+Trovare gli errori nel seguente codice:
+
+---
+
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+    let evenNumbers = "";
+    for (let i = 0; i < numbers.length - 1; i++;) {
+        if (numbers % 2 = 0); {
+            evenNumbers.push(i);
+        }
+    }
+    console.log(evenNumbers);
+
+    // dovrebbe restituire [1,3,5]
+
+---
