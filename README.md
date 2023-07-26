@@ -75,3 +75,14 @@ Trovare gli errori nel seguente codice:
     // dovrebbe restituire [1,3,5]
 
 ---
+
+## svolgimento traccia 5
+
+- errore nel secondo let
+  - corretto inserendo = [] al posto dei "";
+- errore nel ciclo for
+  - corretto togliendo la ";" da i++
+- errore nell' if
+  - corretto inserendo "numbers[i]
+  - aggiungendo un "="
+  - rimuovendo ";" dalla parentesi
