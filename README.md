@@ -35,8 +35,24 @@ Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Contin
 
 - crea array vuoto
 - crea variabile "totale" che tiene conto della somma
-- **FINCHE'** la variabile "totale" è minore o uguale di 50
+- **FINCHE'** la variabile "totale" è minore di 50
   - chiedi all'utente un numero
   - **SE** il numero inserito dall'utente è inferiore o uguale di 50
   - prendo la variabile "totale" e la sommo con il numero dell'utente
-  -
+  - aggiungo numero ad array vuoto
+
+## traccia 4
+
+Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50.
+Calcola la media dei numeri inseriti.
+
+## svolgimento traccia 4
+
+- crea array vuoto
+- crea variabile "totale" che tiene conto della somma
+- **FINCHE'** la variabile "totale" è minore di 50
+  - chiedi all'utente un numero
+  - **SE** il numero inserito dall'utente è inferiore o uguale di 50
+  - prendo la variabile "totale" e la sommo con il numero dell'utente
+  - aggiungo numero ad array vuoto
+- per fare la media prendo variabile "totale" e la divido per la lunghezza dell'array

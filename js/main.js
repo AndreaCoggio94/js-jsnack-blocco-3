@@ -25,6 +25,23 @@
 
 // ! traccia 3
 
+// let result = [];
+
+// let resultSum = 0;
+
+// while (resultSum < 50) {
+//   let userNumber = parseInt(prompt("Inserisci un numero"));
+//   let checkUserNumber = resultSum + userNumber;
+//   console.log(resultSum);
+//   if (checkUserNumber <= 50) {
+//     resultSum += userNumber;
+//     result.push(userNumber);
+//   }
+//   console.log(result);
+// }
+
+// ! traccia 4
+
 let result = [];
 
 let resultSum = 0;
@@ -39,3 +56,5 @@ while (resultSum < 50) {
   }
   console.log(result);
 }
+
+console.log("Media è " + resultSum / result.length);
