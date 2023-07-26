@@ -26,3 +26,17 @@ Dare la possibilità di inserire due parole. Verificare che le due parole abbian
     - stampa la prima parola
   - **SE** seconda parola più grande
     - stampa seconda parola
+
+## traccia 3
+
+Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50.
+
+## svolgimento traccia 3
+
+- crea array vuoto
+- crea variabile "totale" che tiene conto della somma
+- **FINCHE'** la variabile "totale" è minore o guale di 50
+  - chiedi all'utente un numero
+  - **SE** il numero inserito dall'utente è inferiore o uguale di 50
+  - prendo la variabile "totale" e la sommo con il numero dell'utente
+  -

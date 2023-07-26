@@ -12,13 +12,22 @@
 
 // ! traccia 2
 
-let firstWord = prompt("scrivi una parola");
-let secondWord = prompt("scrivi un altra parola");
+// let firstWord = prompt("scrivi una parola");
+// let secondWord = prompt("scrivi un altra parola");
 
-if (firstWord.length == secondWord.length) {
-  console.log(firstWord + " " + secondWord);
-} else if (firstWord.length > secondWord.length) {
-  console.log(firstWord);
-} else {
-  console.log(secondWord);
+// if (firstWord.length == secondWord.length) {
+//   console.log(firstWord + " " + secondWord);
+// } else if (firstWord.length > secondWord.length) {
+//   console.log(firstWord);
+// } else {
+//   console.log(secondWord);
+// }
+
+// ! traccia 3
+
+let result = [];
+
+while () {
+    let userNumber = parseInt("Inserisci un numero")
+
 }
