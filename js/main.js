@@ -17,10 +17,8 @@ let secondWord = prompt("scrivi un altra parola");
 
 if (firstWord.length == secondWord.length) {
   console.log(firstWord + " " + secondWord);
+} else if (firstWord.length > secondWord.length) {
+  console.log(firstWord);
 } else {
-  if (firstWord.length > secondWord.length) {
-    console.log(firstWord);
-  } else {
-    console.log(secondWord);
-  }
+  console.log(secondWord);
 }
